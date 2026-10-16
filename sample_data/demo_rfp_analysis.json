@@ -1,0 +1,57 @@
+{
+  "extraction": {
+    "requirements": [
+      {"id": "R-001", "clause": "3.1", "text": "Design and implement a cloud-native claims intake platform supporting minimum 50,000 claims/day", "type": "mandatory"},
+      {"id": "R-002", "clause": "3.2", "text": "Integrate with existing Guidewire ClaimCenter via published APIs", "type": "mandatory"},
+      {"id": "R-003", "clause": "3.3", "text": "AI-assisted document classification for claims correspondence, minimum 95% accuracy", "type": "mandatory"},
+      {"id": "R-004", "clause": "3.4", "text": "Mobile-first claimant self-service portal", "type": "desirable"},
+      {"id": "R-005", "clause": "3.5", "text": "Encryption of data at rest and in transit (AES-256 / TLS 1.2+)", "type": "mandatory"},
+      {"id": "R-006", "clause": "3.6", "text": "US-hosted solution compliant with SOC 2 Type II", "type": "mandatory"},
+      {"id": "R-007", "clause": "3.7", "text": "Real-time fraud-detection scoring on all incoming claims (sub-second latency preferred)", "type": "mandatory"},
+      {"id": "R-008", "clause": "3.8", "text": "Spanish-language claimant communications", "type": "desirable"},
+      {"id": "R-009", "clause": "3.9", "text": "24x7 production support with 15-minute Severity 1 response SLA", "type": "mandatory"},
+      {"id": "R-010", "clause": "3.10", "text": "Migrate 7 years (~40 TB) of historical claims data with full audit traceability", "type": "mandatory"},
+      {"id": "R-011", "clause": "4.1", "text": "Complete implementation within 12 months of contract award", "type": "mandatory"},
+      {"id": "R-012", "clause": "4.2", "text": "Unlimited liability coverage for data breaches from Vendor negligence", "type": "mandatory"},
+      {"id": "R-013", "clause": "4.3", "text": "All IP developed under the engagement transfers to Acme", "type": "mandatory"},
+      {"id": "R-014", "clause": "4.4", "text": "Describe knowledge-transfer and training approach", "type": "desirable"},
+      {"id": "R-015", "clause": "4.5", "text": "Three references from insurance-industry clients of similar size", "type": "mandatory"},
+      {"id": "R-016", "clause": "4.6", "text": "Maintain adequate staffing as deemed appropriate by Acme", "type": "mandatory"}
+    ],
+    "ambiguities": [
+      "Clause 3.7: 'sub-second latency preferred' - unclear whether sub-second is mandatory or desirable",
+      "Clause 4.6: 'adequate staffing as deemed appropriate by Acme' is undefined and unilaterally determined by the client"
+    ],
+    "risky_terms": [
+      "Clause 4.2: unlimited liability for data breaches - exceeds standard liability caps",
+      "Clause 4.3: full IP transfer would include pre-existing accelerators unless carved out",
+      "Clause 3.9: 15-minute Sev-1 SLA is stricter than standard 30-minute commitment"
+    ]
+  },
+  "mapping": {
+    "mappings": [
+      {"id": "R-001", "coverage": "full", "capability_id": "CAP-01", "evidence": "CAP-01 platform practice has delivered 120k transactions/day, above the 50k requirement.", "owner_suggestion": "Platform architect"},
+      {"id": "R-002", "coverage": "full", "capability_id": "CAP-02", "evidence": "CAP-02: certified Guidewire partner with 6 ClaimCenter API integrations.", "owner_suggestion": "Integration lead"},
+      {"id": "R-003", "coverage": "full", "capability_id": "CAP-03", "evidence": "CAP-03 document AI accelerator achieved 96-98% accuracy on insurance correspondence.", "owner_suggestion": "AI practice lead"},
+      {"id": "R-004", "coverage": "full", "capability_id": "CAP-07", "evidence": "CAP-07: four insurance claimant portals delivered, React Native mobile-first.", "owner_suggestion": "Digital lead"},
+      {"id": "R-005", "coverage": "full", "capability_id": "CAP-04", "evidence": "CAP-04 standard patterns cover AES-256 and TLS 1.3.", "owner_suggestion": "Security architect"},
+      {"id": "R-006", "coverage": "full", "capability_id": "CAP-04", "evidence": "CAP-04: SOC 2 Type II attested; US-only hosting available.", "owner_suggestion": "Security architect"},
+      {"id": "R-007", "coverage": "gap", "capability_id": null, "evidence": null, "owner_suggestion": "AI practice lead"},
+      {"id": "R-008", "coverage": "full", "capability_id": "CAP-07", "evidence": "CAP-07: Spanish localization delivered twice.", "owner_suggestion": "Digital lead"},
+      {"id": "R-009", "coverage": "partial", "capability_id": "CAP-06", "evidence": "CAP-06 standard Sev-1 SLA is 30 minutes; 15-minute SLA only at premium tier - price accordingly.", "owner_suggestion": "Service delivery manager"},
+      {"id": "R-010", "coverage": "partial", "capability_id": "CAP-05", "evidence": "CAP-05 migration factory is audit-traceable but largest prior migration was 25 TB vs. 40 TB required.", "owner_suggestion": "Data lead"},
+      {"id": "R-011", "coverage": "partial", "capability_id": "CAP-01", "evidence": "CAP-01 supports phased delivery; 12-month full scope is aggressive given 40 TB migration - propose phased plan.", "owner_suggestion": "Delivery director"},
+      {"id": "R-012", "coverage": "gap", "capability_id": null, "evidence": null, "owner_suggestion": "Legal/commercial"},
+      {"id": "R-013", "coverage": "gap", "capability_id": null, "evidence": null, "owner_suggestion": "Legal/commercial"},
+      {"id": "R-014", "coverage": "full", "capability_id": "CAP-06", "evidence": "CAP-06 managed-services practice includes standard knowledge-transfer methodology.", "owner_suggestion": "Delivery director"},
+      {"id": "R-015", "coverage": "full", "capability_id": "CAP-01", "evidence": "CAP-01/CAP-07: multiple insurance references available (2 carriers, 4 portal clients).", "owner_suggestion": "Account executive"},
+      {"id": "R-016", "coverage": "partial", "capability_id": "CAP-06", "evidence": "Staffing commitments supported, but clause as written is open-ended - needs clarification.", "owner_suggestion": "Legal/commercial"}
+    ],
+    "clarification_questions": [
+      "Clause 3.7: Is sub-second fraud-scoring latency mandatory, or is near-real-time (<5s) acceptable?",
+      "Clause 4.2: Will Acme accept a liability cap (e.g., 2x annual fees) with cyber-insurance backing instead of unlimited liability?",
+      "Clause 4.3: Can pre-existing vendor IP and accelerators be excluded from IP transfer, with Acme receiving a perpetual license?",
+      "Clause 4.6: Can 'adequate staffing' be defined via agreed staffing plan and change-control process?"
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+REQUEST FOR PROPOSAL — RFP-2026-014
+Acme Insurance Group: Claims Automation Platform Modernization
+
+SECTION 3 — SCOPE AND TECHNICAL REQUIREMENTS
+
+3.1 The Vendor shall design and implement a cloud-native claims intake platform
+    supporting a minimum of 50,000 claims per day.
+3.2 The solution must integrate with the existing Guidewire ClaimCenter system
+    via published APIs.
+3.3 The platform shall provide AI-assisted document classification for claims
+    correspondence with a minimum accuracy of 95%.
+3.4 The Vendor should provide a mobile-first claimant self-service portal.
+3.5 All data at rest and in transit must be encrypted (AES-256 / TLS 1.2+).
+3.6 The solution must be hosted within the continental United States and comply
+    with SOC 2 Type II requirements.
+3.7 The Vendor shall provide fraud-detection scoring on all incoming claims in
+    real time (sub-second latency preferred).
+3.8 The system should support Spanish-language claimant communications.
+3.9 The Vendor must provide 24x7 production support with a 15-minute response
+    SLA for Severity 1 incidents.
+3.10 The Vendor shall migrate 7 years of historical claims data (approximately
+     40 TB) with full audit traceability.
+
+SECTION 4 — DELIVERY AND COMMERCIAL REQUIREMENTS
+
+4.1 The Vendor must complete implementation within 12 months of contract award.
+4.2 The Vendor shall provide unlimited liability coverage for data breaches
+    arising from Vendor negligence.
+4.3 All intellectual property developed under this engagement shall transfer to
+    Acme Insurance Group.
+4.4 The Vendor should describe its approach to knowledge transfer and training.
+4.5 Proposals must include three references from insurance-industry clients of
+    similar size.
+4.6 The Vendor must maintain adequate staffing as deemed appropriate by Acme.

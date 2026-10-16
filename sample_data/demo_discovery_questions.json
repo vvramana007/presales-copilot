@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {"question": "Walk me through what happens today from the moment a claim arrives to the moment it's assigned to an adjuster.", "rationale": "Establishes the current-state process and surfaces the manual steps where automation pays off.", "area": "need"},
+    {"question": "Which parts of that process cause the most rework or customer complaints?", "rationale": "Pain points named by the client become the win themes in our proposal.", "area": "need"},
+    {"question": "What does a claim cost you to handle end-to-end today, and where do you want that number to be?", "rationale": "Converts the conversation into a measurable business case we can anchor pricing against.", "area": "budget"},
+    {"question": "Is this initiative funded already, or is funding dependent on this evaluation?", "rationale": "Distinguishes a real project from an exploratory exercise; changes how much effort to invest.", "area": "budget"},
+    {"question": "Who else needs to agree before a decision like this moves forward?", "rationale": "Identifies the full buying committee early, before we discover a blocker late.", "area": "authority"},
+    {"question": "How have similar transformation projects been approved here in the past?", "rationale": "Reveals the real procurement path and any precedent we should mirror.", "area": "authority"},
+    {"question": "What's driving the timing — is there a renewal, audit, or regulatory date behind this?", "rationale": "A hard external date is the strongest predictor that a deal will actually close.", "area": "timeline"},
+    {"question": "What would need to be live by when for this to be considered a success in year one?", "rationale": "Tests whether their expected timeline is realistic against our delivery model.", "area": "timeline"},
+    {"question": "What's your current claims system landscape — core platform, integrations, data warehouse?", "rationale": "Determines integration effort and whether our existing accelerators apply.", "area": "need"},
+    {"question": "Have you tried to solve this before? What happened?", "rationale": "Past failures reveal organizational risks and let us position explicitly against them.", "area": "risk"},
+    {"question": "How does your team think about AI making decisions that affect claimants — what governance would you expect?", "rationale": "Surfaces model-risk and regulatory concerns early, where our human-in-the-loop approach is a differentiator.", "area": "risk"},
+    {"question": "If we're sitting here a year from now and this went extremely well, what changed for your team?", "rationale": "Gets the client to articulate success in their own words — the best possible material for the executive summary.", "area": "need"}
+  ]
+}

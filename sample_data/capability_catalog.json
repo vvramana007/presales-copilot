@@ -1,0 +1,11 @@
+{
+  "capabilities": [
+    {"id": "CAP-01", "name": "Cloud-native platform engineering", "detail": "AWS/Azure microservices platforms; largest deployment handles 120k transactions/day; insurance references: 2 carriers."},
+    {"id": "CAP-02", "name": "Guidewire integration practice", "detail": "Certified Guidewire partners; 6 ClaimCenter API integration projects delivered."},
+    {"id": "CAP-03", "name": "Document AI accelerator", "detail": "Claude-based document classification/extraction accelerator; 96-98% accuracy achieved on insurance correspondence in 3 prior engagements."},
+    {"id": "CAP-04", "name": "Security & compliance", "detail": "SOC 2 Type II attested delivery centers; standard AES-256/TLS 1.3 encryption patterns; US-only hosting options via AWS us-east/us-west."},
+    {"id": "CAP-05", "name": "Data migration factory", "detail": "Audit-traceable large-scale migrations; largest completed: 25 TB policy data over 9 months."},
+    {"id": "CAP-06", "name": "Managed services", "desc_note": "24x7 support desk", "detail": "24x7 L1-L3 support; standard Sev-1 response SLA is 30 minutes; 15-minute SLA available at premium tier."},
+    {"id": "CAP-07", "name": "Customer portals", "detail": "React/React Native self-service portals; 4 insurance claimant portals delivered; WCAG 2.1 AA; English and Spanish localization delivered twice."}
+  ]
+}
